@@ -6,26 +6,33 @@
 body {
   overflow-x: hidden;
   margin: 0;
-  background-color: bisque;
+  background-color: grey;
 }
 
 .header {
-    display: flex;
-  background-color: brown;
-  margin: 0;
-  padding: 30px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100;
+  display: flex;
+background-color: white;
+margin: 0;
+padding: 30px;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 100;
 }
 
 .header h2 {
-  color: white;
-  font-size: 30px;
-  font-family: 'Ubuntu', sans-serif;
-  margin: 15px;
-  padding: 10px;
+color: black;
+font-size: 30px;
+font-family: 'Ubuntu', sans-serif;
+margin: 15px;
+padding: 10px;
+}
+#change-color{
+  color: green;
+}
+.header h2:hover {
+cursor: pointer;
+color: green;
 }
 
 .header ul {
@@ -43,18 +50,15 @@ body {
 
 .header ul .li a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 25px;
   font-family: 'Ubuntu', sans-serif;
   border-bottom: 2px solid transparent;
-  transition: color 0.5s, border-bottom 0.5s;
+  transition:  border-bottom 0.5s;
 }
 
 .header ul .li a:hover{
-    font-family: 'Yellowtail', cursive;
-    color: goldenrod;
-    
-    border-bottom: 2px solid goldenrod;
+    border-bottom: 2px solid green;
 }
 /* 
 .property-wrapper{
@@ -80,7 +84,7 @@ color: black;
   display: none;
   padding: 50px;
   position: absolute;
-  background-color: rgb(107, 60, 67);
+  background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px 10px 50px 10px;
   z-index: 1;
@@ -95,4 +99,7 @@ color: black;
   padding: 10px;
   text-decoration: none;
   display: block;
+}
+.section{
+  background-image: url(/img/property-3.jpg);
 }

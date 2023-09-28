@@ -7,19 +7,19 @@
 
     <link
       rel="icon"
-      type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
 
     <title>Estate Website</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
     <header class="header">
-      <h2>ESTATE AGENCY</h2>
+      <h2>ESTATE <span id="change-color">AGENCY</span></h2>
       <nav>
         <ul>
           <li class="li"><a href="">HOME</a></li>
@@ -27,7 +27,7 @@
           <li class="li"><a href="">ABOUT</a></li>
 
           <li class="li has-dropdown">
-            <a href="">PROPERTY</a>
+            <a href="">PROPERTY<i class="fa fa-angle-down"></i></a>
             <div class="property-wrapper">
               <a href="">Residential</a>
               <a href="">Commercial</a>
@@ -43,7 +43,11 @@
         </ul>
       </nav>
     </header>
-
+    <section class="section">
+      <h1>
+        Real Estate
+      </h1>
+    </section>
     <script src="scripts.js"></script>
   </body>
 </html>
