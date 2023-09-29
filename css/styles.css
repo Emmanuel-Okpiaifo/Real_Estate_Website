@@ -26,6 +26,7 @@ font-size: 35px;
 font-family: 'Ubuntu', sans-serif;
 margin: 15px;
 padding: 10px;
+left: 18%;
 }
 #change-color{
   color: green;
@@ -38,7 +39,7 @@ color: green;
 .header ul {
   display: flex;
   top: 30px;
-  left: 120%;
+  left: 90%;
   padding-left: 0;
   margin: 0;
 }
